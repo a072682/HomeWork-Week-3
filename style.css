@@ -375,7 +375,19 @@ body{
     padding-bottom: 32px;
     border-bottom:1px solid #ffffff;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+}
+.footer_1A-ft-box{
+    padding:32px 0 32px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_1A-ft-box p{
+    line-height: 24px;
+    color:#ffffff;
+}
+.footer_2A-icon-box{
+    display: flex;
 }
 .footer_3A-text-box{
     height: 48px;
@@ -390,26 +402,25 @@ body{
     display: flex;
     margin-bottom: 8px;
 }
+.footer_3A-phone-box p{
+    font-size: 36px;
+    line-height: 54px;
+    color:#ffffff
+}
 .footer_3A-email-box{
     display: flex;
 }
+.footer_3A-email-box p{
+    font-size: 36px;
+    line-height: 54px;
+    color:#ffffff
+}
 .footer_3B-icon-img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    max-width:48px;
+    margin-left: 16px;
 }
 .footer_3B-icon-img img{
-    max-width: 48px;
-    margin-left:32px;
-}
-.footer_1A-ft-box{
-    padding:32px 0 32px 0;
-    display: flex;
-    justify-content: space-between;
-}
-.footer_1A-ft-box p{
-    line-height: 24px;
-    color:#ffffff;
+    width:100%;
 }
 .text-set{
     font-size: 16px;
@@ -419,11 +430,6 @@ body{
 .icon-set{
     font-size: 48px;
     margin-right: 16px;
-    color:#ffffff
-}
-.icon-text-set{
-    font-size: 36px;
-    line-height: 54px;
     color:#ffffff
 }
 .footer_2B-text
@@ -537,13 +543,17 @@ body{
     .footer_3A-text-box p{
         margin-right: clamp(18px,3.5vw,48px);
     }
-    .footer_3B-icon-img img{
-        max-width: 40px;
-        margin-left:16px;
+    .footer_3B-icon-img{
+        max-width:40px;
     }
-    .icon-text-set{
+    .footer_3B-icon-img img{
+        width: 100%;
+    }
+    .footer_3A-phone-box p{
+        font-size: 36px;
+    }
+    .footer_3A-email-box p{
         font-size: clamp(32px,5vw,36px);
-        line-height: 54px;
     }
     .text-set{
         font-size: 16px; 
@@ -760,7 +770,12 @@ body{
         margin-right: 8px;
         color:#ffffff
     }
-    .icon-text-set{
+    .footer_3A-phone-box p{
+        font-size: 16px;
+        line-height: 24px;
+        color:#ffffff
+    }
+    .footer_3A-email-box p{
         font-size: 16px;
         line-height: 24px;
         color:#ffffff
